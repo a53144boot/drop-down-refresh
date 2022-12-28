@@ -6,8 +6,8 @@ var config = require('./webpack.base.config');
 
 config.entry = './src/index.js';
 config.output = {
-    filename: './dist/vue-drop-down-refresh.min.js',
-    library: 'VueDropDownRefresh',
+    filename: './dist/drop-down-refresh.min.js',
+    library: 'DropDownRefresh',
     libraryTarget: 'umd'
 };
 

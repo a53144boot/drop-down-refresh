@@ -1,10 +1,10 @@
 import Vue from 'vue';
-import VueDropDownRefresh from './src/vue-drop-down-refresh.vue';
+import DropDownRefresh from './src/drop-down-refresh.vue';
 
 new Vue({
     el: '#container',
     components: {
-        'vue-drop-down-refresh': VueDropDownRefresh
+        'drop-down-refresh': DropDownRefresh
     },
     data() {
         return {};

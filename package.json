@@ -1,8 +1,8 @@
 {
-  "name": "vue-drop-down-refresh",
+  "name": "drop-down-refresh",
   "version": "0.2.7",
   "description": "a pull down refresh component implements by vuejs",
-  "main": "./dist/vue-drop-down-refresh.min.js",
+  "main": "./dist/drop-down-refresh.min.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --watch --progress --config webpack.dev.config.js --port 8888",
     "build": "webpack --progress --config webpack.prod.config.js",
@@ -15,10 +15,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/a53144boot/vue-drop-down-refresh.git"
+    "url": "https://github.com/a53144boot/drop-down-refresh.git"
   },
   "bugs": {
-    "url": "https://github.com/a53144boot/vue-drop-down-refresh/issues"
+    "url": "https://github.com/a53144boot/drop-down-refresh/issues"
   },
   "author": "86620697@qq.com",
   "license": "ISC",
