@@ -13,11 +13,11 @@ npm install vue-drop-down-refresh --save
 ### CommonJS
 
 ```javascript
-var VuePullRefresh = require('vue-pull-refresh');
+var VueDropDownRefresh = require('vue-drop-down-refresh');
 
 new Vue({
     components: {
-        'vue-drop-down-refresh': VuePullRefresh
+        'vue-drop-down-refresh': VueDropDownRefresh
     },
     data: function () {
         return {};
