@@ -1,3 +1,3 @@
-import VueDropDownRefresh from './vue-drop-down-refresh.vue';
+import vuePullRefresh from './vue-pull-refresh.vue';
 
-module.exports = VueDropDownRefresh;
+module.exports = vuePullRefresh;
