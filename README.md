@@ -1,5 +1,5 @@
 # drop-down-refresh
-drop-down-refresh
+
 > Vuejs 2.0 for mobile implements drop down refresh.
 
 ## Usage
@@ -13,11 +13,11 @@ npm install drop-down-refresh --save
 ### CommonJS
 
 ```javascript
-var DropDownRefresh = require('drop-down-refresh');
+var VuePullRefresh = require('vue-pull-refresh');
 
 new Vue({
     components: {
-        'drop-down-refresh': DropDownRefresh
+        'vue-pull-refresh': VuePullRefresh
     },
     data: function () {
         return {};
@@ -31,17 +31,17 @@ new Vue({
             });
         }
     },
-    template: '<drop-down-refresh :on-refresh="onRefresh"></drop-down-refresh>'
+    template: '<vue-pull-refresh :on-refresh="onRefresh"></vue-pull-refresh>'
 });
 ```
 
 ### ES6
 ```javascript
-import DropDownRefresh from 'drop-down-refresh';
+import VuePullRefresh from 'vue-pull-refresh';
 
 new Vue({
     components: {
-        'drop-down-refresh': DropDownRefresh
+        'vue-pull-refresh': VuePullRefresh
     },
     data: function () {
         return {};
@@ -55,7 +55,7 @@ new Vue({
             });
         }
     },
-    template: '<drop-down-refresh :on-refresh="onRefresh"></drop-down-refresh>'
+    template: '<vue-pull-refresh :on-refresh="onRefresh"></vue-pull-refresh>'
 });
 ```
 
@@ -76,3 +76,5 @@ npm run dev
 ```
 
 ## License
+
+[MIT](http://opensource.org/licenses/MIT)

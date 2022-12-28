@@ -1,8 +1,8 @@
 {
-  "name": "drop-down-refresh",
-  "version": "0.2.7",
+  "name": "vue-pull-refresh",
+  "version": "0.2.8",
   "description": "a pull down refresh component implements by vuejs",
-  "main": "./dist/drop-down-refresh.min.js",
+  "main": "./dist/vue-pull-refresh.min.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --watch --progress --config webpack.dev.config.js --port 8888",
     "build": "webpack --progress --config webpack.prod.config.js",

@@ -1,10 +1,10 @@
 import Vue from 'vue';
-import DropDownRefresh from './src/drop-down-refresh.vue';
+import vuePullRefresh from './src/vue-pull-refresh.vue';
 
 new Vue({
     el: '#container',
     components: {
-        'drop-down-refresh': DropDownRefresh
+        'vue-pull-refresh': vuePullRefresh
     },
     data() {
         return {};
