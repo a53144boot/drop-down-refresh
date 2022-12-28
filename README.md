@@ -1,5 +1,5 @@
 # drop-down-refresh
-vue drop-down-refresh
+drop-down-refresh
 > Vuejs 2.0 for mobile implements drop down refresh.
 
 ## Usage
